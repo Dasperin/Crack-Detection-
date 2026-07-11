@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+INTERVIEW_PREP.md
+
+# Large / regenerable artifacts - see README for how to regenerate
+data_raw/
+features/
+models/*.keras
+!models/.gitkeep

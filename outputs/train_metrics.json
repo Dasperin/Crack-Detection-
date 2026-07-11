@@ -1,0 +1,6 @@
+{
+  "epochs_ran": 10,
+  "final_train_accuracy": 0.999833345413208,
+  "final_val_accuracy": 0.9986249804496765,
+  "best_val_accuracy": 0.9993749856948853
+}

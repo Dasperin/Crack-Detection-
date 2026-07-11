@@ -1,0 +1,37 @@
+[train] train features: (24000, 1280), val features: (8000, 1280)
+Model: "crack_classifier_head"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ dense_128 (Dense)               │ (None, 128)            │       163,968 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout (Dropout)               │ (None, 128)            │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ output (Dense)                  │ (None, 1)              │           129 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 164,097 (641.00 KB)
+ Trainable params: 164,097 (641.00 KB)
+ Non-trainable params: 0 (0.00 B)
+Epoch 1/40
+188/188 - 0s - 3ms/step - accuracy: 0.9940 - loss: 0.0175 - val_accuracy: 0.9979 - val_loss: 0.0062 - learning_rate: 0.0010
+Epoch 2/40
+188/188 - 0s - 1ms/step - accuracy: 0.9987 - loss: 0.0053 - val_accuracy: 0.9986 - val_loss: 0.0048 - learning_rate: 0.0010
+Epoch 3/40
+188/188 - 0s - 1ms/step - accuracy: 0.9990 - loss: 0.0044 - val_accuracy: 0.9984 - val_loss: 0.0051 - learning_rate: 0.0010
+Epoch 4/40
+188/188 - 0s - 1ms/step - accuracy: 0.9991 - loss: 0.0037 - val_accuracy: 0.9994 - val_loss: 0.0041 - learning_rate: 0.0010
+Epoch 5/40
+188/188 - 0s - 1ms/step - accuracy: 0.9995 - loss: 0.0023 - val_accuracy: 0.9992 - val_loss: 0.0043 - learning_rate: 0.0010
+Epoch 6/40
+188/188 - 0s - 1ms/step - accuracy: 0.9997 - loss: 0.0019 - val_accuracy: 0.9990 - val_loss: 0.0055 - learning_rate: 0.0010
+Epoch 7/40
+188/188 - 0s - 1ms/step - accuracy: 0.9995 - loss: 0.0019 - val_accuracy: 0.9992 - val_loss: 0.0048 - learning_rate: 0.0010
+Epoch 8/40
+188/188 - 0s - 1ms/step - accuracy: 0.9997 - loss: 0.0016 - val_accuracy: 0.9983 - val_loss: 0.0069 - learning_rate: 5.0000e-04
+Epoch 9/40
+188/188 - 0s - 1ms/step - accuracy: 0.9998 - loss: 9.8186e-04 - val_accuracy: 0.9983 - val_loss: 0.0074 - learning_rate: 5.0000e-04
+Epoch 10/40
+188/188 - 0s - 1ms/step - accuracy: 0.9998 - loss: 9.0090e-04 - val_accuracy: 0.9986 - val_loss: 0.0062 - learning_rate: 5.0000e-04
+[train] saved training curves -> /Users/anshalaziz/PythonProjects/SurfaceCrackDetection/outputs/training_curves.png
+[train] metrics: {'epochs_ran': 10, 'final_train_accuracy': 0.999833345413208, 'final_val_accuracy': 0.9986249804496765, 'best_val_accuracy': 0.9993749856948853}
+[train] saved full end-to-end model -> /Users/anshalaziz/PythonProjects/SurfaceCrackDetection/models/surface_crack_mobilenetv2.keras

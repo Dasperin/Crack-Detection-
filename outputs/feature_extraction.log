@@ -1,0 +1,22 @@
+
+=== Extracting features for split: train ===
+[train] 4000 images processed (22.3s elapsed, 179.4 img/s)
+[train] 8000 images processed (47.5s elapsed, 168.4 img/s)
+[train] 12000 images processed (74.7s elapsed, 160.6 img/s)
+[train] 16000 images processed (96.9s elapsed, 165.1 img/s)
+[train] 20000 images processed (120.2s elapsed, 166.3 img/s)
+[train] 24000 images processed (146.2s elapsed, 164.2 img/s)
+[train] saved 24000 feature vectors -> /Users/anshalaziz/PythonProjects/SurfaceCrackDetection/features/train.npz
+[train] class balance: 12000 positive / 12000 negative
+
+=== Extracting features for split: validation ===
+[validation] 4000 images processed (23.5s elapsed, 170.2 img/s)
+[validation] 8000 images processed (48.7s elapsed, 164.3 img/s)
+[validation] saved 8000 feature vectors -> /Users/anshalaziz/PythonProjects/SurfaceCrackDetection/features/validation.npz
+[validation] class balance: 4000 positive / 4000 negative
+
+=== Extracting features for split: test ===
+[test] 4000 images processed (26.3s elapsed, 152.1 img/s)
+[test] 8000 images processed (54.4s elapsed, 147.1 img/s)
+[test] saved 8000 feature vectors -> /Users/anshalaziz/PythonProjects/SurfaceCrackDetection/features/test.npz
+[test] class balance: 4000 positive / 4000 negative

@@ -1,0 +1,8 @@
+/Users/anshalaziz/PythonProjects/SurfaceCrackDetection/venv/lib/python3.12/site-packages/keras/src/saving/saving_lib.py:843: UserWarning: Skipping variable loading for optimizer 'adam_1', because it has 10 variables whereas the saved optimizer has 2 variables. 
+  saveable.load_own_variables(weights_store.get(inner_path))
+/Users/anshalaziz/PythonProjects/SurfaceCrackDetection/venv/lib/python3.12/site-packages/keras/src/models/functional.py:259: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: ['input_layer_1']
+Received: inputs=Tensor(shape=(1, 224, 224, 3))
+  warnings.warn(msg)
+[gradcam] saved /Users/anshalaziz/PythonProjects/SurfaceCrackDetection/outputs/gradcam/gradcam_negative.png
+[gradcam] saved /Users/anshalaziz/PythonProjects/SurfaceCrackDetection/outputs/gradcam/gradcam_positive.png
